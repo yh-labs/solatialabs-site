@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>솔라티아랩스 · Solatia Labs</title>
+<meta name="description" content="솔라티아랩스는 모바일 스토리 게임을 만드는 독립 개발 스튜디오입니다. Solatia Labs is an independent studio making interactive story games for mobile.">
+<style>
+  :root {
+    --bg: #fbf7f4; --fg: #231f26; --muted: #6d6571; --line: #e6ddd8;
+    --accent: #b4476b; --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17141a; --fg: #f1ebf0; --muted: #a79eaa; --line: #2e2933; --accent: #e58aa8; --card: #1f1b24; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+    line-height: 1.65; -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 56px 0 28px; }
+  .brand { font-size: 15px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  h1 { font-size: clamp(30px, 7vw, 44px); line-height: 1.2; margin: 14px 0 14px; letter-spacing: -0.01em; }
+  .lead { color: var(--muted); font-size: 17px; margin: 0; }
+  .lead .en { display: block; margin-top: 6px; font-size: 15px; }
+  section { padding: 28px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 14px; font-weight: 600; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; }
+  .card h3 { margin: 0 0 6px; font-size: 20px; }
+  .tag { display: inline-block; font-size: 12px; padding: 3px 10px; border-radius: 99px; border: 1px solid var(--accent); color: var(--accent); margin-bottom: 10px; }
+  .card p { margin: 6px 0 0; color: var(--muted); }
+  dl { display: grid; grid-template-columns: 9.5em 1fr; gap: 8px 14px; margin: 0; font-size: 14px; }
+  dt { color: var(--muted); }
+  dd { margin: 0; word-break: keep-all; overflow-wrap: anywhere; }
+  footer { padding: 24px 0 56px; color: var(--muted); font-size: 13px; }
+  @media (max-width: 480px) { dl { grid-template-columns: 1fr; gap: 2px; } dd { margin-bottom: 10px; } }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">Solatia Labs</div>
+      <h1>솔라티아랩스</h1>
+      <p class="lead">모바일 스토리 게임을 만드는 독립 개발 스튜디오입니다.
+        <span class="en">An independent studio making interactive story games for mobile.</span>
+      </p>
+    </header>
+
+    <section>
+      <h2>Games · 게임</h2>
+      <div class="card">
+        <span class="tag">Coming soon · 출시 준비 중</span>
+        <h3>Seoulbound: K-Romance Stories</h3>
+        <p>한국을 배경으로 한 로맨스 스토리를 읽고, 선택에 따라 이야기와 결말이 달라지는 인터랙티브 스토리 게임입니다. 영어와 한국어로 제공할 예정입니다.</p>
+        <p>An interactive K-romance story where your choices shape the ending. Coming to the App Store in English and Korean.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Business information · 사업자 정보</h2>
+      <dl>
+        <dt>상호</dt><dd>솔라티아랩스 (Solatia Labs)</dd>
+        <dt>대표자</dt><dd>고윤희</dd>
+        <dt>사업자등록번호</dt><dd data-todo>[사업자등록번호 입력 필요]</dd>
+        <dt>통신판매업 신고번호</dt><dd data-todo>[신고 완료 후 입력]</dd>
+        <dt>사업장 소재지</dt><dd>서울특별시 강남구 논현로79길 48-1, 2층 1128호(역삼동)</dd>
+        <dt>전화번호</dt><dd data-todo>[전화번호 입력 필요]</dd>
+        <dt>이메일</dt><dd data-todo>[이메일 입력 필요]</dd>
+        <dt>인터넷 도메인</dt><dd>solatialabs.com</dd>
+      </dl>
+    </section>
+
+    <footer>© 2026 Solatia Labs. All rights reserved.</footer>
+  </div>
+</body>
+</html>
